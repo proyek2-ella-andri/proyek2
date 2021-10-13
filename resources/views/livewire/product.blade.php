@@ -10,7 +10,7 @@
                                 <th>No</th>
                                 <th>Name</th>
                                 <th width="20%">Image</th>
-                                <th>Description</th>
+                                <th>Categories</th>
                                 <th>Qty</th>
                                 <th>Price</th>
                             </tr>
@@ -54,7 +54,7 @@
                             @endif
                         </div>
                         <div class="form-group">
-                            <label>Produk Description </label>
+                            <label>Categories </label>
                             <textarea wire:model='description' class="form-control"></textarea>
                             @error('description') <small class="text-danger">{{$message}}</small>@enderror
                         </div>
